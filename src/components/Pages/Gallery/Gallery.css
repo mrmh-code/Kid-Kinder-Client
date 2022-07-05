@@ -1,0 +1,24 @@
+.button-design {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.btns{
+    border: 1px solid #17A2B8;
+    padding: 6px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+ 
+
+.button-design button:focus{
+    background: #17A2B8;
+    color: white;
+}
+
+
+ 
+
+ 
+ 

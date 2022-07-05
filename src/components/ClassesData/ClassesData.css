@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Poppins&display=swap');
+
+ 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+  
+
+  }
+ 
+  td {
+    border-bottom: 1px solid #dddddd;
+    
+    text-align: left;
+    padding: 8px;
+    color: rgb(90, 90, 90);
+
+  }
+
+.classdata h5{
+    color:#00394F;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 22px;
+
+
+}
+
+.classdata p{
+    color: rgb(90, 90, 90);
+}

@@ -1,0 +1,38 @@
+.footer{
+    background: #00394F;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
+
+.footer-section{
+    margin: 0 1rem;
+
+}
+
+.footer-section p{
+    color: white;
+}
+.footer-section h4{
+    color: #087D93;
+}
+
+.footer-section span{
+    color: #17A2B8;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.footer-section h5{
+    color: white;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    
+}
+.Link-item{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,18 @@
+class image
+https://i.ibb.co/jvCdHxZ/class-2.jpg
+https://i.ibb.co/1d46L6v/class-3.jpg
+https://i.ibb.co/PZzHpvf/class-1.jpg
+
+blog
+
+https://i.ibb.co/Fbh7mrJ/post-2.jpg
+https://i.ibb.co/FnPWjH3/post-3.jpg
+https://i.ibb.co/2j41ZSG/post-1.jpg
+
+gallery
+https://i.ibb.co/8XPNKfs/portfolio-2.jpg
+https://i.ibb.co/4V5J2wF/portfolio-3.jpg
+https://i.ibb.co/31f7HVz/portfolio-4.jpg
+https://i.ibb.co/w7M74Gt/portfolio-5.jpg
+https://i.ibb.co/z44K1d7/portfolio-6.jpg
+https://i.ibb.co/N7TRzvG/portfolio-1.jpg

@@ -1,0 +1,20 @@
+.blogs{
+    border: 0px;
+    background: #F8F9FA;
+    padding-bottom: 10px;
+}
+.icon-bar{
+    color: #17A2B8;
+    font-size: 15px;
+}
+
+.icon-text{
+    color: rgb(106, 107, 107);
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.blog-description{
+    color: rgb(106, 107, 107);
+
+}

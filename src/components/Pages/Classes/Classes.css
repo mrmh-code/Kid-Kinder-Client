@@ -1,0 +1,13 @@
+.our-class{
+    padding: 6rem;
+    text-align: center;
+    background: #17A2B8;
+    color: white;
+     
+}
+
+.our-class h1{
+    font-size: 70px;
+    font-family: 'Handlee', cursive;
+    font-weight: 900;
+}

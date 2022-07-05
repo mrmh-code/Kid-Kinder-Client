@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Julia Smith",
+        "subject": "Music Teacher",
+        "img": "https://i.ibb.co/wBnyWwR/team-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Jhon Doe",
+        "subject": "Language Teacher",
+        "img": "https://i.ibb.co/LN6Fn9g/team-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mollie Ross",
+        "subject": "Dance Teacher",
+        "img": "https://i.ibb.co/YdJrbQp/team-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Donald John",
+        "subject": "Art Teacher",
+        "img": "https://i.ibb.co/3cpZqHQ/team-4.jpg"
+    }
+]

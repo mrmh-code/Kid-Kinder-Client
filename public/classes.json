@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Drawing Class",
+        "Age":"3 - 6 Years",
+        "Seats":"40 Seats",
+        "Time": "08:00 - 10:00",
+        "Fee": "$290 / Month",
+        "description": "Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo",
+        "img": "https://i.ibb.co/PZzHpvf/class-1.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Language Learning",
+        "Age":"3 - 6 Years",
+        "Seats":"40 Seats",
+        "Time": "08:00 - 10:00",
+        "Fee": "$290 / Month",
+        "description": "Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo",
+        "img": "https://i.ibb.co/jvCdHxZ/class-2.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Basic Science",
+        "Age":"3 - 6 Years",
+        "Seats":"40 Seats",
+        "Time": "08:00 - 10:00",
+        "Fee": "$290 / Month",
+        "description": "Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo",
+        "img": "https://i.ibb.co/1d46L6v/class-3.jpg"
+    }
+]
