@@ -1,7 +1,7 @@
 import React from "react";
 
 const StudentsDetails = (props) => {
-  console.log(props);
+ 
   const { name, subject, img } = props.students;
   return (
     <div>

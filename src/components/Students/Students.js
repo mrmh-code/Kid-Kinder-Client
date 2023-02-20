@@ -5,7 +5,7 @@ const Students = () => {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    fetch("https://server-site-alpha.vercel.app/students")
+    fetch("https://marketing-tix-server.onrender.com/students")
       .then((res) => res.json())
       .then((data) => setStudents(data));
   }, []);
@@ -25,7 +25,7 @@ const Students = () => {
             </div>
           </div>
         ) : (
-          students.map((u) => <StudentsDetails key={u.id} students={u} />)
+          students?.map((u) => <StudentsDetails key={u.id} students={u} />)
         )}
       </div>
     </div>

@@ -16,7 +16,7 @@ const JoinClass = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    axios.post("https://server-site-alpha.vercel.app/students", data).then((res) => {
+    axios.post("https://marketing-tix-server.onrender.com/students", data).then((res) => {
       if (res.data.insertedId) {
         alert("successfully added check students Section");
         reset();

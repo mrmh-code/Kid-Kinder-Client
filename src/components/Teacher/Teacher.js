@@ -4,7 +4,7 @@ import TeacherDetails from "../TeacherDetails/TeacherDetails";
 const Teacher = () => {
   const [teachers, setTeachers] = useState([]);
   useEffect(() => {
-    fetch("https://server-site-alpha.vercel.app/teacher")
+    fetch("https://marketing-tix-server.onrender.com/teacher")
       .then((res) => res.json())
       .then((data) => setTeachers(data));
   }, []);
@@ -19,7 +19,7 @@ const Teacher = () => {
             </div>
           </div>
         ) : (
-          teachers.map((u) => <TeacherDetails key={u.id} teacher={u} />)
+          teachers?.map((u) => <TeacherDetails key={u.id} teacher={u} />)
         )}
       </div>
     </div>

@@ -19,8 +19,8 @@ const Home = () => {
     <div>
       <section>
         <div className="header pb-5">
-          <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2 gx-0">
-            <div className="col">
+          <div className="row   gx-0">
+            <div className="col-10 col-md-5 col-lg-5 col-lg-6">
               <div className="left">
                 <h5>Kids Learning Center</h5>
                 <h1>New Approach to Kids Education</h1>
@@ -38,7 +38,7 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <div className="col">
+            <div className="col-10 col-md-5 col-lg-5 col-lg-6">
               <div className="right">
                 <img src={HOMEBG} alt="" />
               </div>
@@ -50,7 +50,7 @@ const Home = () => {
       <section className="type-learn">
         <div
           className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 mt-5 gx-0 res-type-learn"
-          style={{ margin: "0 100px" }}
+       
         >
           <div className="col">
             <div className="d-flex bg-light shadow-sm border-top rounded mb-4 py-4 px-4 me-3">
@@ -182,12 +182,12 @@ const Home = () => {
       </section>
 
       <section>
-        <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2 gx-0">
-          <div className="col">
+        <div className="row  gx-0">
+          <div className=" col-lg-5 col-sm-8 col-10  col-md-4 ">
             <img className="about-img" src={ABOUTBG} alt="" />
           </div>
 
-          <div className="col">
+          <div className="col-lg-5 col-sm-8 col-10  col-md-4">
             <div className="learn-about-right">
               <h6>LEARN ABOUT US</h6>
               <h2>Best School For Your Kids</h2>
@@ -197,7 +197,7 @@ const Home = () => {
                 Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
                 dolor
               </p>
-              <div className="d-flex mb-2 mt-2">
+              <div className="d-flex mb-2 mt-2 clean">
                 <div>
                   <img src={portfolioT} alt="" />
                 </div>
@@ -216,7 +216,7 @@ const Home = () => {
               </div>
 
               <button
-                className="btn mt-2 px-4 py-2  rounded-pill text-white"
+                className="btn mt-1 px-4 py-1  rounded-pill text-white"
                 style={{ background: "rgb(23,162,184)" }}
               >
                 Learn More
@@ -253,7 +253,7 @@ const Home = () => {
           </h1>
         </div>
 
-        <div>{<Teacher />}</div>
+      {<Teacher />} 
       </section>
 
       <section className="blog-section">

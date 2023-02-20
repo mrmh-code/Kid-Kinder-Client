@@ -6,7 +6,7 @@ const Gallery = () => {
   const [images, setImages] = useState([]);
   const [selectedImage, setSelectedImage] = useState([]);
   useEffect(() => {
-    fetch("https://server-site-alpha.vercel.app/gallery")
+    fetch("https://marketing-tix-server.onrender.com/gallery")
       .then((res) => res.json())
       .then((data) => setImages(data));
   }, []);

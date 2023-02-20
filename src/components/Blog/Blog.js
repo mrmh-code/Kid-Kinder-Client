@@ -4,7 +4,7 @@ import Blogs from "../Blogs/Blogs";
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
-    fetch("https://server-site-alpha.vercel.app/blog")
+    fetch("https://marketing-tix-server.onrender.com/blog")
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);
@@ -14,7 +14,7 @@ const Blog = () => {
 
       <div
         className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
-        style={{ margin: "0 6rem" }}
+        style={{ margin: "0 4%" }}
       >
 
 
@@ -26,7 +26,7 @@ const Blog = () => {
             </div>
           </div>
         ) : (
-          blogs.map((blog) => <Blogs key={blog.id} blog={blog} />)
+          blogs?.map((blog) => <Blogs key={blog.id} blog={blog} />)
         )}
 
         

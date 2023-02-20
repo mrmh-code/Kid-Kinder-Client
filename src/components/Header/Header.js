@@ -16,9 +16,9 @@ const Header = () => {
   return (
     <div>
       <header className="sticky-top shadow p-1 bg-body rounded">
-        <nav className="navbar p-3 navbar-expand-lg navbar-light rounded">
+        <nav className="navbar p-3 navbar-expand-xl navbar-light rounded">
           <div className="container-fluid ">
-            <span className="navbar-brand  me-2 ms-5">
+            <span className="navbar-brand">
               <img
                 src={ICON}
                 height="40"
@@ -29,13 +29,8 @@ const Header = () => {
             </span>
 
             <span
-              className="  h1 "
-              style={{
-                color: "#17A2B8",
-                fontSize: "40px",
-                fontWeight: "bold",
-                marginRight: "100px",
-              }}
+              className="h1 kid "
+              
             >
               KidKinder
             </span>
@@ -59,7 +54,7 @@ const Header = () => {
               <NavLink
                 to="/"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                className=" navbar px-3 me-2  item "
+                className=" navbar px-3 me-2 ms-5 ps-5  item "
               >
                 Home
               </NavLink>

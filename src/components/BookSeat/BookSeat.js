@@ -4,10 +4,10 @@ const BookSeat = () => {
   return (
     <div>
       <div
-        className="row row-cols-1 row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 gx-0"
+        className="row gx-0"
         style={{ marginTop: "100px" }}
       >
-        <div className="col ">
+        <div className="col-lg-5 col-sm-8 col-10  col-md-4 ">
           <div className="book-seat-left mt-5">
             <h6>BOOK A SEAT</h6>
             <h1>Book A Seat For Your Kid</h1>
@@ -39,7 +39,7 @@ const BookSeat = () => {
           </div>
         </div>
 
-        <div className="col me-0 pe-0 mt-5 ">
+        <div className="col-lg-5 col-sm-8 col-10  col-md-4 me-0 pe-0 mt-5 ">
           <div className="res-book">
             <div className="book-input-top ">
               <h2>Book A Seat</h2>

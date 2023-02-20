@@ -1,0 +1,11 @@
+ 
+
+.class-res{
+    margin: 0px 100px;
+ }
+
+ @media only screen and (min-width: 200px) and (max-width: 900px) {
+    .class-res{
+        margin: 0px 20px;
+     }
+ }

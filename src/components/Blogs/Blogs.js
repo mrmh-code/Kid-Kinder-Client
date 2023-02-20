@@ -7,7 +7,7 @@ const Blogs = (props) => {
   return (
     <div>
 
-      <div className="col">
+      <div className="col ">
         <div className="card blogs">
           <img src={img} className="card-img-top" alt="..." />
           <div className="card-body text-center">
