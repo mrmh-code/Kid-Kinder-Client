@@ -6,7 +6,7 @@ const Gallery = () => {
   const [images, setImages] = useState([]);
   const [selectedImage, setSelectedImage] = useState([]);
   useEffect(() => {
-    fetch("https://dazzling-channel-islands-22143.herokuapp.com/gallery")
+    fetch("https://server-site-alpha.vercel.app/gallery")
       .then((res) => res.json())
       .then((data) => setImages(data));
   }, []);

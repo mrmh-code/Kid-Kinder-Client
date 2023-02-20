@@ -4,7 +4,7 @@ import Blogs from "../Blogs/Blogs";
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
-    fetch("https://dazzling-channel-islands-22143.herokuapp.com/blog")
+    fetch("https://server-site-alpha.vercel.app/blog")
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);

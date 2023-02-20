@@ -5,7 +5,7 @@ const Class = () => {
     const [classes,setClasses]=useState([]);
 
     useEffect(()=>{
-        fetch(`https://dazzling-channel-islands-22143.herokuapp.com/classes`)
+        fetch(`https://server-site-alpha.vercel.app/classes`)
         .then(res => res.json())
         .then(data => setClasses(data))
     }, [])

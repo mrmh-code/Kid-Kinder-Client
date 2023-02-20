@@ -4,7 +4,7 @@ import TeacherDetails from "../TeacherDetails/TeacherDetails";
 const Teacher = () => {
   const [teachers, setTeachers] = useState([]);
   useEffect(() => {
-    fetch("https://dazzling-channel-islands-22143.herokuapp.com/teacher")
+    fetch("https://server-site-alpha.vercel.app/teacher")
       .then((res) => res.json())
       .then((data) => setTeachers(data));
   }, []);

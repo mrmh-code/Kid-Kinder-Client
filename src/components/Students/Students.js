@@ -5,7 +5,7 @@ const Students = () => {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    fetch("https://dazzling-channel-islands-22143.herokuapp.com/students")
+    fetch("https://server-site-alpha.vercel.app/students")
       .then((res) => res.json())
       .then((data) => setStudents(data));
   }, []);
